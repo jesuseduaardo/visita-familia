@@ -1,0 +1,48 @@
+body {
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(0, 115, 219);
+    background: linear-gradient(180deg, rgba(0, 115, 219, 1) 0%, rgba(0, 115, 219, 0.6222864145658263) 50%, rgba(0, 115, 219, 0) 100%);
+}
+
+#main {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#main p {
+    font-size: 40px;
+}
+
+#main h3 {
+    font-size: 42px;
+    margin-top: 0px;
+}
+
+#main img {
+    width: 340px;
+    transform: scaleX(-1);
+}
+
+.celebrate {
+    position: relative;
+    width: 90vw;
+}
+
+.celebrate #happy {
+    width: 200px;
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+    transform: rotate(20deg);
+    border: 7px solid white;
+}
