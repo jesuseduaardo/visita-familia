@@ -20,11 +20,11 @@ body {
 }
 
 #main p {
-    font-size: 40px;
+    font-size: 32px;
 }
 
 #main h3 {
-    font-size: 42px;
+    font-size: 36px;
     margin-top: 0px;
 }
 
@@ -39,10 +39,10 @@ body {
 }
 
 .celebrate #happy {
-    width: 200px;
+    width: 125px;
     position: absolute;
-    bottom: 35px;
-    right: 35px;
+    bottom: 0px;
+    right: 0px;
     transform: rotate(20deg);
     border: 7px solid white;
 }
