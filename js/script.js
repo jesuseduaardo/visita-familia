@@ -17,7 +17,10 @@
      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
      // Output the result in an element with id="demo"
-     const left = days + " días, " + hours + " horas, " + minutes + " minutos y " + seconds + " segundos ";
+     const left = "<span id='days'>"+days+ " días</span>" + 
+     "<span id='hours'>"+ hours + " horas</span>"+
+     "<span id='minutes'>" + minutes + " minutos </span>" + 
+     "<span id='seconds'>" + seconds + " segundos</span>";
      document.getElementById("left").innerHTML = left;
 
      // If the count down is over, write some text 
