@@ -2,7 +2,6 @@
  const countDownDate = new Date("Jul 10, 2024 13:37:25").getTime();
 
  const subjectList = [
-    "la Sra. Norma y el Sr. Antonio",
     "Mamá y Papá",
     "la Abuela y el Abuelo",
     "la Suegra y el Suegro"
