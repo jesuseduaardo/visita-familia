@@ -68,3 +68,21 @@ body {
 #left #seconds{
     font-size: 28px;
 }
+.happy-2{
+    position: absolute !important;
+    width: 109px !important;
+    left: 228px;
+    bottom: 62px;
+    transform: rotate(-15deg) !important;
+    border: 5px solid #fff;
+    z-index: 0 !important;
+}
+.happy-3{
+    position: absolute !important;
+    width: 109px !important;
+    left: 55px;
+    bottom: 237px;
+    transform: rotate(8deg) !important;
+    border: 5px solid #fff;
+    z-index: 0 !important;
+}
